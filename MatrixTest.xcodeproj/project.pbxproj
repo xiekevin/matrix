@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060DEFDA1E773C1A005E32B8 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DEFD91E773C1A005E32B8 /* GroupsViewController.swift */; };
+		060DEFDC1E773C23005E32B8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DEFDB1E773C23005E32B8 /* ChatViewController.swift */; };
+		060DEFDE1E773C2A005E32B8 /* GroupChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060DEFDD1E773C2A005E32B8 /* GroupChatViewController.swift */; };
+		066036F91E77499800EC9C74 /* MatrixManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066036F81E77499800EC9C74 /* MatrixManager.swift */; };
+		066036FB1E774FBA00EC9C74 /* AuthenticatedMatrixSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066036FA1E774FBA00EC9C74 /* AuthenticatedMatrixSession.swift */; };
 		06BF0A491E77121100CDC46B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF0A481E77121100CDC46B /* AppDelegate.swift */; };
-		06BF0A4B1E77121100CDC46B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF0A4A1E77121100CDC46B /* ViewController.swift */; };
+		06BF0A4B1E77121100CDC46B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BF0A4A1E77121100CDC46B /* LoginViewController.swift */; };
 		06BF0A4E1E77121100CDC46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BF0A4C1E77121100CDC46B /* Main.storyboard */; };
 		06BF0A511E77121200CDC46B /* MatrixTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06BF0A4F1E77121200CDC46B /* MatrixTest.xcdatamodeld */; };
 		06BF0A531E77121200CDC46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BF0A521E77121200CDC46B /* Assets.xcassets */; };
 		06BF0A561E77121200CDC46B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BF0A541E77121200CDC46B /* LaunchScreen.storyboard */; };
+		6E8393F7BBDC7B8DDE7AD5FB /* Pods_MatrixTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C167ED609CC88F87B5B9C1B9 /* Pods_MatrixTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		060DEFD91E773C1A005E32B8 /* GroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		060DEFDB1E773C23005E32B8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		060DEFDD1E773C2A005E32B8 /* GroupChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChatViewController.swift; sourceTree = "<group>"; };
+		066036F81E77499800EC9C74 /* MatrixManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixManager.swift; sourceTree = "<group>"; };
+		066036FA1E774FBA00EC9C74 /* AuthenticatedMatrixSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticatedMatrixSession.swift; sourceTree = "<group>"; };
 		06BF0A451E77121100CDC46B /* MatrixTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BF0A481E77121100CDC46B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06BF0A4A1E77121100CDC46B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06BF0A4A1E77121100CDC46B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		06BF0A4D1E77121100CDC46B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06BF0A501E77121200CDC46B /* MatrixTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatrixTest.xcdatamodel; sourceTree = "<group>"; };
 		06BF0A521E77121200CDC46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06BF0A551E77121200CDC46B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06BF0A571E77121200CDC46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A3606484166DC01FDD5D66 /* Pods-MatrixTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MatrixTest/Pods-MatrixTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6487C726F2DE99874792472D /* Pods-MatrixTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MatrixTest/Pods-MatrixTest.release.xcconfig"; sourceTree = "<group>"; };
+		C167ED609CC88F87B5B9C1B9 /* Pods_MatrixTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatrixTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E8393F7BBDC7B8DDE7AD5FB /* Pods_MatrixTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				06BF0A471E77121100CDC46B /* MatrixTest */,
 				06BF0A461E77121100CDC46B /* Products */,
+				9A402AF88624F4DC08E0E6C2 /* Pods */,
+				A93E409ACA562F35AD71D5F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				06BF0A481E77121100CDC46B /* AppDelegate.swift */,
-				06BF0A4A1E77121100CDC46B /* ViewController.swift */,
+				060DEFDD1E773C2A005E32B8 /* GroupChatViewController.swift */,
+				06BF0A4A1E77121100CDC46B /* LoginViewController.swift */,
+				060DEFD91E773C1A005E32B8 /* GroupsViewController.swift */,
 				06BF0A4C1E77121100CDC46B /* Main.storyboard */,
 				06BF0A521E77121200CDC46B /* Assets.xcassets */,
 				06BF0A541E77121200CDC46B /* LaunchScreen.storyboard */,
 				06BF0A571E77121200CDC46B /* Info.plist */,
 				06BF0A4F1E77121200CDC46B /* MatrixTest.xcdatamodeld */,
+				060DEFDB1E773C23005E32B8 /* ChatViewController.swift */,
+				066036F81E77499800EC9C74 /* MatrixManager.swift */,
+				066036FA1E774FBA00EC9C74 /* AuthenticatedMatrixSession.swift */,
 			);
 			path = MatrixTest;
+			sourceTree = "<group>";
+		};
+		9A402AF88624F4DC08E0E6C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50A3606484166DC01FDD5D66 /* Pods-MatrixTest.debug.xcconfig */,
+				6487C726F2DE99874792472D /* Pods-MatrixTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A93E409ACA562F35AD71D5F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C167ED609CC88F87B5B9C1B9 /* Pods_MatrixTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06BF0A5A1E77121200CDC46B /* Build configuration list for PBXNativeTarget "MatrixTest" */;
 			buildPhases = (
+				8EF88D104171DBC4A98616EF /* [CP] Check Pods Manifest.lock */,
 				06BF0A411E77121100CDC46B /* Sources */,
 				06BF0A421E77121100CDC46B /* Frameworks */,
 				06BF0A431E77121100CDC46B /* Resources */,
+				C19726A58E057F4C3D057635 /* [CP] Embed Pods Frameworks */,
+				BE88FCE2BF43C558835351B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,13 +177,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EF88D104171DBC4A98616EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE88FCE2BF43C558835351B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MatrixTest/Pods-MatrixTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19726A58E057F4C3D057635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MatrixTest/Pods-MatrixTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06BF0A411E77121100CDC46B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060DEFDA1E773C1A005E32B8 /* GroupsViewController.swift in Sources */,
 				06BF0A511E77121200CDC46B /* MatrixTest.xcdatamodeld in Sources */,
-				06BF0A4B1E77121100CDC46B /* ViewController.swift in Sources */,
+				060DEFDE1E773C2A005E32B8 /* GroupChatViewController.swift in Sources */,
+				06BF0A4B1E77121100CDC46B /* LoginViewController.swift in Sources */,
+				066036F91E77499800EC9C74 /* MatrixManager.swift in Sources */,
+				060DEFDC1E773C23005E32B8 /* ChatViewController.swift in Sources */,
+				066036FB1E774FBA00EC9C74 /* AuthenticatedMatrixSession.swift in Sources */,
 				06BF0A491E77121100CDC46B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +356,7 @@
 		};
 		06BF0A5B1E77121200CDC46B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A3606484166DC01FDD5D66 /* Pods-MatrixTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TCBNY6Q26M;
@@ -274,6 +370,7 @@
 		};
 		06BF0A5C1E77121200CDC46B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6487C726F2DE99874792472D /* Pods-MatrixTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TCBNY6Q26M;
@@ -304,6 +401,7 @@
 				06BF0A5C1E77121200CDC46B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
